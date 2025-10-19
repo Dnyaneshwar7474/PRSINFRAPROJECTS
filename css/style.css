@@ -28,7 +28,8 @@ h6 {
 }
 
 .navbar {
-  background-color: #213982;
+  border-bottom: 3px solid #213982;
+  background-color: #fff;
 }
 
 .navbar-brand {
@@ -85,7 +86,7 @@ h6 {
 }
 
 .banner_cont {
-  padding-top: 100px !important;
+  padding-top: 75px !important;
 }
 
 .ourProjectbanner img {
@@ -584,18 +585,20 @@ h6 {
 }
 
 /* footer css */
+.footer {border-top: 4px solid #213982;}
 
 .footer-left {
-  background-color: #1e3d8f;
+  background-color: #fff;
   /* Blue left section */
   text-align: center;
 }
 
 .footer-black {
-  background-color: #000;
+  background-color: #213982;
   /* Black right section */
 }
 
+.footer-logo img{width: 55%;}
 .footer .social-icons a {
   display: inline-flex;
   align-items: center;
@@ -604,9 +607,9 @@ h6 {
   height: 45px;
   margin: 0 8px;
   border-radius: 50%;
-  background: #fff;
+  background: #213982;
   /* white circle */
-  color: #000;
+  color: #fff;
   /* black icons */
   font-size: 1.2rem;
   text-decoration: none;
@@ -660,7 +663,7 @@ h6 {
   }
 
   .carousel-center-caption {
-    top: 24%;
+    top: 48%;
   }
 
   .about-ceo .ceo-img img {
@@ -668,7 +671,11 @@ h6 {
   }
 
 }
-
+@media (min-width: 768px) {
+/* .banner_cont {
+  padding-top: 100px !important;
+} */
+}
 
 @media (min-width: 992px) {
   .navbar{background-color: #fff;}

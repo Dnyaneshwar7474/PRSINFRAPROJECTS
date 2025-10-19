@@ -673,7 +673,7 @@ h6 {
     }
 }
 
-
+.mobilenum{color: #fff; text-decoration: none;}
 /* Hero Banner */
 .career-banner {
   background: url('../images/mainbanner2.jpeg') center/cover no-repeat;
